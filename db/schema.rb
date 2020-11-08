@@ -23,8 +23,8 @@ ActiveRecord::Schema.define(version: 20190418213203) do
     t.string   "title"
     t.string   "description"
     t.integer  "author_id"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end
